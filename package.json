@@ -5,8 +5,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "nodemon index.js",
-    "start": "node index.js",
-    "build": "node --optimize_for_size --max_old_space_size=460 index.js"
+    "start": "node index.js"
   },
   "dependencies": {
     "@tensorflow-models/toxicity": "^1.2.2",
@@ -19,6 +18,7 @@
     "destroyer": "^0.0.0",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
+    "google-auth-library": "^6.1.0",
     "googleapis": "^49.0.0",
     "helmet": "^3.22.0",
     "http": "^0.0.1-security",
